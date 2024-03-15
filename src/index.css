@@ -1,0 +1,192 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Arimo', sans-serif;
+}
+
+body {
+    overflow: hidden;
+    background-color: rgba(240, 255, 255, 0.248);
+}
+
+.app {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.form-graph {
+    width: 50%;
+    height: 100% !important;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+}
+
+.process {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.matrix {
+    padding: 8px 20px;
+}
+
+.matrix>div:first-child {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+
+.inputs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+}
+
+.graph {
+    width: 100%;
+    height: auto !important;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.tables {
+    width: 60%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 15px;
+    padding: 8px;
+}
+
+.form {
+    width: 40%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    height: 100%;
+    align-items: center;
+    justify-items: center;
+    gap: 10px;
+}
+
+.point-form {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+    gap: 15px;
+}
+
+.point-inputs {
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.point-buttons {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.point-table {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.point-table h3 {
+    font-size: 20px;
+}
+
+.cost-function {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 15px 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cost-do{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-do{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cost-do button{
+    width: 40%;
+    height: 45px;
+}
+
+
+/* CSS */
+.button-13 {
+    background-color: #fff;
+    border: 1px solid #d5d9d9;
+    border-radius: 8px;
+    box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+    box-sizing: border-box;
+    color: #0f1111;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Amazon Ember", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0 10px 0 11px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    width: 50%;
+    height: 100%;
+}
+
+.button-13:hover {
+    background-color: #f7fafa;
+}
+
+.button-13:focus {
+    border-color: #008296;
+    box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+    outline: 0;
+}
